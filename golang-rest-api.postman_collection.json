@@ -3,7 +3,8 @@
 	"name": "golang-rest-api",
 	"description": "",
 	"order": [
-		"b2f271c4-c812-7a70-4ffd-26038726b05f"
+		"b2f271c4-c812-7a70-4ffd-26038726b05f",
+		"b4a69790-f8a7-72f0-63e7-5c69a70e6c51"
 	],
 	"folders": [],
 	"folders_order": [],
@@ -40,6 +41,29 @@
 			"collectionId": "8d1b193a-b4f7-7489-1373-e4bfca024bbd",
 			"responses": [],
 			"rawModeData": "{\n\t\"Title\": \"Title 1\",\n\t\"Text\": \"Text 1\"\n}"
+		},
+		{
+			"id": "b4a69790-f8a7-72f0-63e7-5c69a70e6c51",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/posts",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8d1b193a-b4f7-7489-1373-e4bfca024bbd",
+			"data": null,
+			"dataMode": "params",
+			"name": "get posts",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1636712570902,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
 		}
 	]
 }

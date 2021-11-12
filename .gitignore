@@ -12,6 +12,6 @@
 *.out
 
 # Dependency directories (remove the comment below to include it)
-# vendor/
+vendor/
 .idea
 programtic-reviews-87ff1-firebase-adminsdk-uxs6k-1fee6b45fd.json
