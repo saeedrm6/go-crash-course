@@ -1,0 +1,45 @@
+{
+	"id": "8d1b193a-b4f7-7489-1373-e4bfca024bbd",
+	"name": "golang-rest-api",
+	"description": "",
+	"order": [
+		"b2f271c4-c812-7a70-4ffd-26038726b05f"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1636707548063,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "b2f271c4-c812-7a70-4ffd-26038726b05f",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/posts/add",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1636707725528,
+			"name": "save post",
+			"description": "",
+			"collectionId": "8d1b193a-b4f7-7489-1373-e4bfca024bbd",
+			"responses": [],
+			"rawModeData": "{\n\t\"Title\": \"Title 1\",\n\t\"Text\": \"Text 1\"\n}"
+		}
+	]
+}
